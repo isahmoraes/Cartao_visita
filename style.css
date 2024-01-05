@@ -25,10 +25,10 @@
 
 body {
   background-image: var(--bg-url);
-  height: 100vh;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  height: 100vh;
 }
  
 body *{
@@ -38,7 +38,7 @@ body *{
 
 
 #container {
-  width: 360px;
+  width: 100%;
   /*border: 1px solid black; */
   max-width: 588px;
   margin: 56px auto 0px ;
@@ -156,6 +156,7 @@ padding:16px;
 }
 
 @media(min-width:700px){
+
  :root{
   --bg-url:url(./assets/bg.png);
  }
